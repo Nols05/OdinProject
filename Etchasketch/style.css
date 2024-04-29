@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: blanchedalmond;
 }
 
 .btn {
@@ -16,7 +17,7 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    background-color: red;
+    background-color: white;
     width: 500px;
     height: 500px;
     margin-top: 5%;
@@ -26,13 +27,13 @@ body {
 }
 
 .square {
-    background-color: greenyellow;
-    border: solid 1px black;
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
 .square:hover {
+    background-color: grey;
+}
+
+.square:active {
     background-color: red;
 }
