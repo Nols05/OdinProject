@@ -33,7 +33,3 @@ body {
 .square:hover {
     background-color: grey;
 }
-
-.square:active {
-    background-color: red;
-}
