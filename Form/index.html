@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="background-img">
+            <div class="logo-wrapper">
+                <img src="logo.png" alt="Odin Project Logo" class="logo" width="100px">
+                <h2 class="logo-text">ODIN</h2>
+            </div>
+            <div class="credit">
+                <p>
+                    Photo by Halie West on Unsplash
+                </p>
+            </div>
+
+        </div>
+        <div class="back">
+            <p class="text">
+                This is not a real online service! You know you need something
+                like this in your life to help you realize your deepest dreams.
+                Sign up now to get started.<br><br>
+                You know you want to.
+            </p>
+            <div class="form-wrapper">
+                <div class="form-container">
+                    <h2>Let's do this!</h2>
+                    <form class="form" method="post" id="form">
+                        <div class="fieldset">
+                            <div class="input-wrapper">
+                                <label for="first-name">First name</label>
+                                <input type="text" id="first-name" name="first-name">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="last-name">Last name</label>
+                                <input type="text" id="last-name" name="last-name">
+                            </div>
+                        </div>
+
+                        <div class="fieldset">
+                            <div class="input-wrapper">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="phone">Phone number</label>
+                                <input type="text" id="phone" name="phone">
+                            </div>
+
+                        </div>
+
+                        <div class="fieldset password-wrapper">
+                            <div class="input-wrapper">
+                                <label for="password">Password</label>
+                                <input type="password" id="password" onkeyup=passConfirm() name="password">
+                            </div>
+
+                            <div class="input-wrapper">
+                                <label for="confirm-password">confirm-password</label>
+                                <input type="password" id="confirm-password" onkeyup=passConfirm()
+                                    name="confirm-password">
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+
+            <div class="btn-wrapper">
+                <button class="btn" type="submit" form="form">Create Account</button>
+                <p>Already have an account? <button class="login">Log in</button></p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
