@@ -8,7 +8,8 @@ function component() {
 
     // use your function!
     element.textContent = myName('Cody');
-    element.classList.add('hello')
+    element.classList.add('hello');
+    element.textContent = "HOALA"
 
 
 
