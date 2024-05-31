@@ -15,8 +15,11 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
 }
 
 .btn {
     padding: 20px;
+=======
+>>>>>>> 9401284fa93a2b30513c2f09e4dca46cf5b5db5c
 }
