@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel {
+    width: 100%;
+    display: flex;
+
+}
+
+.frame {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.image {
+    display: none;
+}
+
+.visible {
+    display: block;
+}
