@@ -59,4 +59,13 @@ input {
     justify-content: center;
     font-size: 80px;
     font-weight: 700;
+<<<<<<< HEAD
+}
+
+.start {
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 10px;
+=======
+>>>>>>> 9401284fa93a2b30513c2f09e4dca46cf5b5db5c
 }

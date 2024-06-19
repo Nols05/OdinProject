@@ -37,6 +37,10 @@ const createGameboard = () => {
 
 const gameController = (n1, n2) => {
 
+<<<<<<< HEAD
+
+=======
+>>>>>>> 9401284fa93a2b30513c2f09e4dca46cf5b5db5c
     const player1 = createPlayer(n1, 'X');
     const player2 = createPlayer(n2, 'O');
     let currentPlayer = player1;
